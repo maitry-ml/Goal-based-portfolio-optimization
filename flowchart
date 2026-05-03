@@ -1,0 +1,24 @@
+          Start
+            ↓
+  Download historical stock data (2014–2023)
+            ↓
+  Compute annualized returns, risks, covariance matrix
+            ↓
+  Generate valid portfolio combinations
+  (discrete / continuous)
+            ↓
+      For each portfolio:
+        → Calculate expected return & risk
+        → Run 5,000 Monte Carlo simulations
+        → Apply savings growth + goal withdrawals
+        → Apply borrowing if shortfall occurs
+            ↓
+  Estimate success probability
+            ↓
+  Compare all portfolios
+            ↓
+  Select optimal allocation
+            ↓
+  Analyze results for Sequence A & B
+            ↓
+          End
